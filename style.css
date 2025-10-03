@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 250, 205);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.image-left {
+    float: left;
+    margin: 0 20px 20px -100px;
+    shape-outside: margin-box;
+}
+
+.image-center {
+    display: block;
+    margin: 40px auto;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
